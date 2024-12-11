@@ -1,0 +1,82 @@
+treatments ['Barley', 'Almond', 'Avocado', 'Broccoli', 'Oats', 'Walnut']
+hmdb_list 75
+No reaction mapped to HMDB0000011+
+No reaction mapped to HMDB0000011-
+No reaction mapped to HMDB0000020-
+No reaction mapped to HMDB0000132+
+No reaction mapped to HMDB0000156+
+No reaction mapped to HMDB0000210+
+No reaction mapped to HMDB0000226+
+No reaction mapped to HMDB0000226-
+No reaction mapped to HMDB0000262+
+No reaction mapped to HMDB0000283+
+No reaction mapped to HMDB0000283-
+No reaction mapped to HMDB0000294-
+No reaction mapped to HMDB0000511+
+No reaction mapped to HMDB0000573-
+No reaction mapped to HMDB0000646+
+No reaction mapped to HMDB0000666+
+No reaction mapped to HMDB0000666-
+No reaction mapped to HMDB0000754-
+No reaction mapped to HMDB0000826-
+No reaction mapped to HMDB0000827-
+No reaction mapped to HMDB0000892+
+No reaction mapped to HMDB0000892-
+No reaction mapped to HMDB0001138-
+No reaction mapped to HMDB0001160-
+No reaction mapped to HMDB0001488-
+No reaction mapped to HMDB0001858+
+No reaction mapped to HMDB0001893+
+No reaction mapped to HMDB0002003-
+No reaction mapped to HMDB0002212-
+No reaction mapped to HMDB0002259-
+No reaction mapped to HMDB0002356-
+1179
+*** Barley NoBarley ***
+834 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 28
+control_samples 14
+treatment_samples 14
+df (28, 1011)
+*** Almond NoAlmond ***
+834 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 28
+control_samples 14
+treatment_samples 14
+df (28, 1010)
+*** Avocado NoAvocado ***
+834 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 44
+control_samples 17
+treatment_samples 27
+df (44, 1028)
+*** Broccoli NoBroccoli ***
+834 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 30
+control_samples 15
+treatment_samples 15
+df (30, 1014)
+*** Oats NoOats ***
+834 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 29
+control_samples 14
+treatment_samples 15
+df (29, 1012)
+*** Walnut NoWalnut ***
+834 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 36
+control_samples 18
+treatment_samples 18
+df (36, 1020)

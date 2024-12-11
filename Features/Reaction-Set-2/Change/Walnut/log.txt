@@ -1,0 +1,46 @@
+------- Walnut -------
+Walnut -> Best parameters from grid search: {'max_features': 'log2', 'min_samples_leaf': 3, 'n_estimators': 1000, 'n_jobs': -1, 'oob_score': True, 'random_state': 1}
+Accuracy 0.75
+AUROC 0.85
+AUPRC 0.87
+Top-10 features for Walnut : Index(['MAR04302', 'MAR03831', 'MAR04174', 'MAR04284', 'MAR06923', 'MAR04646',
+       'MAR04789', 'MAR04649', 'MAR04650', 'MAR04648'],
+      dtype='object')
+group key
+4301:P1.Walnut        Walnut
+4301:P2.NoWalnut    NoWalnut
+4302:P1.Walnut        Walnut
+4302:P2.NoWalnut    NoWalnut
+4303:P1.NoWalnut    NoWalnut
+4303:P2.Walnut        Walnut
+4304:P1.Walnut        Walnut
+4304:P2.NoWalnut    NoWalnut
+4305:P1.NoWalnut    NoWalnut
+4305:P2.Walnut        Walnut
+4306:P1.Walnut        Walnut
+4306:P2.NoWalnut    NoWalnut
+4307:P1.Walnut        Walnut
+4307:P2.NoWalnut    NoWalnut
+4308:P1.NoWalnut    NoWalnut
+4308:P2.Walnut        Walnut
+4309:P1.NoWalnut    NoWalnut
+4309:P2.Walnut        Walnut
+4310:P1.NoWalnut    NoWalnut
+4310:P2.Walnut        Walnut
+4311:P1.Walnut        Walnut
+4311:P2.NoWalnut    NoWalnut
+4312:P1.Walnut        Walnut
+4312:P2.NoWalnut    NoWalnut
+4313:P1.NoWalnut    NoWalnut
+4313:P2.Walnut        Walnut
+4314:P1.NoWalnut    NoWalnut
+4314:P2.Walnut        Walnut
+4315:P1.Walnut        Walnut
+4315:P2.NoWalnut    NoWalnut
+4316:P1.Walnut        Walnut
+4316:P2.NoWalnut    NoWalnut
+4317:P1.NoWalnut    NoWalnut
+4317:P2.Walnut        Walnut
+4318:P1.NoWalnut    NoWalnut
+4318:P2.Walnut        Walnut
+Name: group, dtype: object

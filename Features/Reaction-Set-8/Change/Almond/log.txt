@@ -1,0 +1,38 @@
+------- Almond -------
+Almond -> Best parameters from grid search: {'max_features': None, 'min_samples_leaf': 1, 'n_estimators': 1000, 'n_jobs': -1, 'oob_score': True, 'random_state': 1}
+Accuracy 0.6785714285714286
+AUROC 0.74
+AUPRC 0.82
+Top-10 features for Almond : Index(['MAR08426', 'MAR03816', 'MAR04416', 'MAR11305', 'MAR03701', 'MAR03555',
+       'MAR03544', 'MAR04776', 'MAR04650', 'MAR03690'],
+      dtype='object')
+group key
+4501:P4.NoAlmond    NoAlmond
+4501:P5.Almond        Almond
+4502:P2.NoAlmond    NoAlmond
+4502:P3.Almond        Almond
+4503:P1.Almond        Almond
+4503:P2.NoAlmond    NoAlmond
+4505:P2.Almond        Almond
+4505:P3.NoAlmond    NoAlmond
+4506:P1.Almond        Almond
+4506:P3.NoAlmond    NoAlmond
+4507:P2.NoAlmond    NoAlmond
+4507:P3.Almond        Almond
+4508:P1.NoAlmond    NoAlmond
+4508:P2.Almond        Almond
+4509:P2.Almond        Almond
+4509:P4.NoAlmond    NoAlmond
+4511:P1.NoAlmond    NoAlmond
+4511:P5.Almond        Almond
+4512:P1.Almond        Almond
+4512:P5.NoAlmond    NoAlmond
+4514:P3.Almond        Almond
+4514:P5.NoAlmond    NoAlmond
+4515:P3.Almond        Almond
+4515:P5.NoAlmond    NoAlmond
+4516:P3.NoAlmond    NoAlmond
+4516:P4.Almond        Almond
+4518:P2.NoAlmond    NoAlmond
+4518:P5.Almond        Almond
+Name: group, dtype: object

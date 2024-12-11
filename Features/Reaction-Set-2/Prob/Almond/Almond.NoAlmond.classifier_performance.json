@@ -1,0 +1,1 @@
+{"NoAlmond": {"precision": 0.0, "recall": 0.0, "f1-score": 0.0, "support": 14.0}, "Almond": {"precision": 0.0, "recall": 0.0, "f1-score": 0.0, "support": 14.0}, "accuracy": 0.0, "macro avg": {"precision": 0.0, "recall": 0.0, "f1-score": 0.0, "support": 28.0}, "weighted avg": {"precision": 0.0, "recall": 0.0, "f1-score": 0.0, "support": 28.0}, "auroc": 0.0, "auprc": 0.33}

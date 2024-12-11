@@ -1,0 +1,40 @@
+------- Broccoli -------
+Broccoli -> Best parameters from grid search: {'max_features': None, 'min_samples_leaf': 3, 'n_estimators': 1000, 'n_jobs': -1, 'oob_score': True, 'random_state': 1}
+Accuracy 0.0
+AUROC 0.0
+AUPRC 0.34
+Top-10 features for Broccoli : Index(['MAR10034B', 'MAR03642', 'MAR03630', 'MAR03631', 'MAR03632', 'MAR03633',
+       'MAR03634', 'MAR03635', 'MAR03636', 'MAR03637'],
+      dtype='object')
+group key
+4915.NoBroccoli    NoBroccoli
+4902.NoBroccoli    NoBroccoli
+4902.Broccoli        Broccoli
+4913.Broccoli        Broccoli
+4904.NoBroccoli    NoBroccoli
+4918.Broccoli        Broccoli
+4912.NoBroccoli    NoBroccoli
+4909.Broccoli        Broccoli
+4912.Broccoli        Broccoli
+4901.NoBroccoli    NoBroccoli
+4903.Broccoli        Broccoli
+4914.NoBroccoli    NoBroccoli
+4903.NoBroccoli    NoBroccoli
+4910.Broccoli        Broccoli
+4916.Broccoli        Broccoli
+4916.NoBroccoli    NoBroccoli
+4908.Broccoli        Broccoli
+4909.NoBroccoli    NoBroccoli
+4913.NoBroccoli    NoBroccoli
+4901.Broccoli        Broccoli
+4906.Broccoli        Broccoli
+4906.NoBroccoli    NoBroccoli
+4910.NoBroccoli    NoBroccoli
+4908.NoBroccoli    NoBroccoli
+4911.NoBroccoli    NoBroccoli
+4915.Broccoli        Broccoli
+4918.NoBroccoli    NoBroccoli
+4904.Broccoli        Broccoli
+4914.Broccoli        Broccoli
+4911.Broccoli        Broccoli
+Name: group, dtype: object

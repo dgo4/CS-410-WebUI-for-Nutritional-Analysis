@@ -1,0 +1,59 @@
+[('Almond', 'Accuracy'), ('Almond', 'AUROC'), ('Almond', 'AUPRC'), ('Avocado', 'Accuracy'), ('Avocado', 'AUROC'), ('Avocado', 'AUPRC'), ('Oats', 'Accuracy'), ('Oats', 'AUROC'), ('Oats', 'AUPRC'), ('Walnut', 'Accuracy'), ('Walnut', 'AUROC'), ('Walnut', 'AUPRC')]
+
+change
+prob
+
+change
+prob
+ratio
+
+change
+prob
+
+change
+prob
+ratio
+
+prob
+
+prob
+
+change
+prob
+
+change
+prob
+
+prob
+MultiIndex([('Reaction-Set-1', 'Change'),
+            ('Reaction-Set-1',   'Prob'),
+            ('Reaction-Set-2', 'Change'),
+            ('Reaction-Set-2',   'Prob'),
+            ('Reaction-Set-2',  'Ratio'),
+            ('Reaction-Set-3', 'Change'),
+            ('Reaction-Set-3',   'Prob'),
+            ('Reaction-Set-4', 'Change'),
+            ('Reaction-Set-4',   'Prob'),
+            ('Reaction-Set-4',  'Ratio'),
+            ('Reaction-Set-5',   'Prob'),
+            ('Reaction-Set-6',   'Prob'),
+            ('Reaction-Set-7', 'Change'),
+            ('Reaction-Set-7',   'Prob'),
+            ('Reaction-Set-8', 'Change'),
+            ('Reaction-Set-8',   'Prob')],
+           names=['Reaction Set', 'Input Features'])
+MultiIndex([( 'Almond', 'Accuracy'),
+            ( 'Almond',    'AUROC'),
+            ( 'Almond',    'AUPRC'),
+            ('Avocado', 'Accuracy'),
+            ('Avocado',    'AUROC'),
+            ('Avocado',    'AUPRC'),
+            (   'Oats', 'Accuracy'),
+            (   'Oats',    'AUROC'),
+            (   'Oats',    'AUPRC'),
+            ( 'Walnut', 'Accuracy'),
+            ( 'Walnut',    'AUROC'),
+            ( 'Walnut',    'AUPRC')],
+           names=['Treatment', 'Metric'])
+/Users/dgo/Documents/UIUC/CS410/Project/./src/summarize_performance.py:130: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  ]).set_properties(**{'max-width': '100%', 'white-space': 'nowrap'}).apply(lambda x: diff.applymap(color_cells), axis=None).highlight_max(axis=0, props='font-weight: bold; color: blue', subset=subset)

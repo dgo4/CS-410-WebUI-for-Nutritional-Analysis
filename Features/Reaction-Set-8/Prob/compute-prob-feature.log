@@ -1,0 +1,99 @@
+treatments ['Avocado', 'Oats', 'Barley', 'Broccoli', 'Almond', 'Walnut']
+hmdb_list 75
+No reaction mapped to HMDB0000011+
+No reaction mapped to HMDB0000011-
+No reaction mapped to HMDB0000020+
+No reaction mapped to HMDB0000020-
+No reaction mapped to HMDB0000122-
+No reaction mapped to HMDB0000131-
+No reaction mapped to HMDB0000132+
+No reaction mapped to HMDB0000143-
+No reaction mapped to HMDB0000209+
+No reaction mapped to HMDB0000209-
+No reaction mapped to HMDB0000210+
+No reaction mapped to HMDB0000210-
+No reaction mapped to HMDB0000211+
+No reaction mapped to HMDB0000211-
+No reaction mapped to HMDB0000226+
+No reaction mapped to HMDB0000226-
+No reaction mapped to HMDB0000262+
+No reaction mapped to HMDB0000262-
+No reaction mapped to HMDB0000283+
+No reaction mapped to HMDB0000283-
+No reaction mapped to HMDB0000300+
+No reaction mapped to HMDB0000300-
+No reaction mapped to HMDB0000301+
+No reaction mapped to HMDB0000301-
+No reaction mapped to HMDB0000511+
+No reaction mapped to HMDB0000511-
+No reaction mapped to HMDB0000535+
+No reaction mapped to HMDB0000535-
+No reaction mapped to HMDB0000646+
+No reaction mapped to HMDB0000646-
+No reaction mapped to HMDB0000660-
+No reaction mapped to HMDB0000666+
+No reaction mapped to HMDB0000666-
+No reaction mapped to HMDB0000754+
+No reaction mapped to HMDB0000754-
+No reaction mapped to HMDB0000763+
+No reaction mapped to HMDB0000763-
+No reaction mapped to HMDB0000892+
+No reaction mapped to HMDB0000892-
+No reaction mapped to HMDB0001138-
+No reaction mapped to HMDB0001251+
+No reaction mapped to HMDB0001251-
+No reaction mapped to HMDB0001488+
+No reaction mapped to HMDB0001488-
+No reaction mapped to HMDB0001858+
+No reaction mapped to HMDB0001858-
+No reaction mapped to HMDB0001893+
+No reaction mapped to HMDB0001893-
+966
+*** Avocado NoAvocado ***
+621 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 44
+control_samples 17
+treatment_samples 27
+df (44, 815)
+*** Oats NoOats ***
+621 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 29
+control_samples 14
+treatment_samples 15
+df (29, 798)
+*** Barley NoBarley ***
+621 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 28
+control_samples 14
+treatment_samples 14
+df (28, 797)
+*** Broccoli NoBroccoli ***
+621 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 30
+control_samples 15
+treatment_samples 15
+df (30, 801)
+*** Almond NoAlmond ***
+621 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 28
+control_samples 14
+treatment_samples 14
+df (28, 798)
+*** Walnut NoWalnut ***
+621 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 36
+control_samples 18
+treatment_samples 18
+df (36, 807)

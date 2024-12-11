@@ -1,0 +1,85 @@
+base_path ./data/Metabolomics_Processed_Baseline.tsv
+end_path ./data/Metabolomics_Processed_End.tsv
+id_path ./data/Metabolite_Identifier.tsv
+log_path ./preprocess_metabolome.log
+out_dir ./Preprocessed-Metabolome
+(199, 346)
+(202, 305)
+common_rows 195 {'160.NoAvocado', '097.NoAvocado', '3431.Barley', '129.Avocado', '3402.NoOats', '4512:P5.NoAlmond', '3406.Oats', '4906.Broccoli', '114.NoAvocado', '3408.Oats', '3454.NoBarley', '161.Avocado', '3411.Barley', '4514:P5.NoAlmond', '186.NoAvocado', '152.NoAvocado', '4518:P5.Almond', '4505:P2.Almond', '4313:P2.Walnut', '4910.NoBroccoli', '4318:P2.Walnut', '3442.NoBarley', '4910.Broccoli', '096.Avocado', '4516:P3.NoAlmond', '4515:P3.Almond', '3422.Barley', '4503:P1.Almond', '166.NoAvocado', '4501:P4.NoAlmond', '3430.Oats', '4506:P1.Almond', '3415.Oats', '4509:P2.Almond', '4312:P1.Walnut', '149.Avocado', '4912.NoBroccoli', '4317:P1.NoWalnut', '4304:P2.NoWalnut', '3444.NoBarley', '4516:P4.Almond', '4314:P1.NoWalnut', '4307:P2.NoWalnut', '4305:P2.Walnut', '4901.NoBroccoli', '4309:P1.NoWalnut', '4310:P2.Walnut', '4512:P1.Almond', '113.Avocado', '4903.Broccoli', '3464.NoOats', '4506:P3.NoAlmond', '4515:P5.NoAlmond', '4912.Broccoli', '3442.NoOats', '183.Avocado', '050.Avocado', '3402.NoBarley', '4915.NoBroccoli', '099.Avocado', '3453.Oats', '3465.Barley', '4902.NoBroccoli', '4302:P1.Walnut', '4916.NoBroccoli', '4304:P1.Walnut', '3458.Oats', '3429.NoOats', '3413.NoBarley', '4913.NoBroccoli', '133.NoAvocado', '4308:P2.Walnut', '4507:P2.NoAlmond', '4310:P1.NoWalnut', '102.Avocado', '4307:P1.Walnut', '4914.Broccoli', '4914.NoBroccoli', '4904.NoBroccoli', '3448.Oats', '4306:P2.NoWalnut', '4315:P1.Walnut', '3471.Barley', '155.Avocado', '3426.Oats', '170.Avocado', '3423.Barley', '3470.Barley', '4913.Broccoli', '134.Avocado', '174.Avocado', '175.NoAvocado', '123.NoAvocado', '063.Avocado', '4318:P1.NoWalnut', '119.Avocado', '4309:P2.Walnut', '4507:P3.Almond', '3464.NoBarley', '3403.Barley', '117.Avocado', '4906.NoBroccoli', '3454.NoOats', '3440.Oats', '4317:P2.Walnut', '4908.NoBroccoli', '047.Avocado', '4509:P4.NoAlmond', '094.Avocado', '162.Avocado', '4316:P2.NoWalnut', '4301:P1.Walnut', '3429.NoBarley', '4514:P3.Almond', '4313:P1.NoWalnut', '3410.Barley', '3437.NoOats', '4303:P1.NoWalnut', '4302:P2.NoWalnut', '4312:P2.NoWalnut', '086.NoAvocado', '4311:P2.NoWalnut', '4316:P1.Walnut', '4903.NoBroccoli', '132.NoAvocado', '3447.NoBarley', '3412.Oats', '3407.NoBarley', '3414.NoBarley', '4915.Broccoli', '4918.Broccoli', '071.Avocado', '056.Avocado', '131.NoAvocado', '138.Avocado', '3434.Barley', '060.NoAvocado', '3461.Oats', '4916.Broccoli', '4315:P2.NoWalnut', '4303:P2.Walnut', '3467.NoBarley', '073.Avocado', '118.Avocado', '041.NoAvocado', '3405.Barley', '4306:P1.Walnut', '046.Avocado', '048.NoAvocado', '4911.NoBroccoli', '4508:P1.NoAlmond', '4311:P1.Walnut', '3445.Oats', '4918.NoBroccoli', '4909.NoBroccoli', '3417.Oats', '4909.Broccoli', '4502:P3.Almond', '064.NoAvocado', '169.Avocado', '4511:P5.Almond', '3420.NoOats', '3469.Oats', '3420.NoBarley', '3439.Oats', '4314:P2.Walnut', '125.Avocado', '3447.NoOats', '4518:P2.NoAlmond', '4502:P2.NoAlmond', '3437.NoBarley', '3421.NoOats', '3455.Barley', '3407.NoOats', '3414.NoOats', '3418.Barley', '4305:P1.NoWalnut', '167.NoAvocado', '3421.NoBarley', '4508:P2.Almond', '3446.Barley', '3413.NoOats', '3444.NoOats', '3467.NoOats', '4911.Broccoli', '4901.Broccoli', '4511:P1.NoAlmond', '4505:P3.NoAlmond', '4501:P5.Almond', '4308:P1.NoWalnut', '4904.Broccoli', '4301:P2.NoWalnut', '4908.Broccoli', '4902.Broccoli', '4503:P2.NoAlmond'}
+common_cols 283
+(195, 283)
+(195, 283)
+drop_missing_values
+6  diets ['Broccoli', 'Avocado', 'Barley', 'Almond', 'Oats', 'Walnut']
+30 Broccoli
+30 Broccoli
+103
+107
+44 Avocado
+44 Avocado
+110
+122
+28 Barley
+28 Barley
+121
+135
+28 Almond
+28 Almond
+124
+146
+29 Oats
+29 Oats
+124
+147
+36 Walnut
+36 Walnut
+127
+148
+End:  127
+End:  148
+base_df (195, 125) end_df (195, 146)
+c6:0                                0.958938
+thymine                             4.275488
+2-amino-4,6-dihydroxypyrimidine     1.241499
+cholesta-2,4-diene                  1.176676
+mannose                             7.287103
+                                     ...    
+aminomalonic acid                   3.532472
+leucine                            47.934862
+2-deoxy-d-ribose                    0.752548
+cadaverine                          1.219321
+p-cresol                            0.511006
+Length: 125, dtype: float64
+1-eicosanol                   1.215461
+oleanolic acid                2.021504
+glyceric acid                 1.457261
+c6:0                          4.995508
+thymine                       8.037039
+                                ...   
+2-deoxy-d-ribose              2.291677
+cadaverine                    5.648338
+p-cresol                      1.562265
+4-hydroxycyclohexylacetate    0.285242
+pseudo uridine                2.882193
+Length: 146, dtype: float64
+(195, 125) (195, 146)
+common_cols 114
+base_df (195, 114) end_df (195, 114)
+base_df (195, 114) end_df (195, 114)
+
+change_df (195, 114)
+id_df (112, 2)
+112
+(2186, 14)
+common_mets 75
+75
+['tyrosine', 'urocanic acid', 'cholesterol', 'proline', 'c22:0', 'c26:0', 'c24:0', 'c15:0', 'c20:0', 'glutamic acid', 'serine', 'arabinose', 'c18:2 (9,12)', 'tryptophan', 'gaba', 'ribose', 'pantothenic acid', 'c18:0', 'c5:0', 'c6:0', '5-hydroxyindole-3-acetic acid', 'leucine', 'glyoxylic acid', 'ethanolamine', 'threonine', 'xanthine', 'orotic acid', 'glutamine', 'butanoic acid, 3-hydroxy', 'inositol, myo', 'uric acid', 'guanine', 'c16:0', 'glycerol', 'glucose', 'arginine', '4-hydroxyphenylacetic acid', 'thymine', 'mannose', 'o-phosphoethanolamine', 'n-acetylglutamic acid', 'inosine', 'glycine', 'c14:0', 'c17:0', 'ornithine', 'cysteine', 'nicotinic acid', 'galactose', 'hypoxanthine', 'benzeneacetic acid', 'phenylalanine', 'fructose', 'c23:0', 'c18:1 (9)', 'isoleucine', 'lanosterol', 'maltose', 'c10:0', 'malic acid', 'glycolic acid', 'lysine', 'c7:0', 'deoxycholic acid', 'p-cresol', 'fumaric acid', 'succinic acid', 'urea', 'aspartic acid', 'butanoic acid, 3-methyl-3-hydroxy', 'uracil', 'b-alanine', 'pyruvic acid', 'valine', 'tocopherol, a']
+(195, 75) (195, 75)
+change_df (195, 75)
+75
+{'HMDB0000011': 'MAM00157', 'HMDB0000626': 'MAM00745', 'HMDB0000112': 'MAM00970', 'HMDB0000020': 'MAM01003', 'HMDB0000763': 'MAM01103', 'HMDB0001893': 'MAM01327', 'HMDB0000517': 'MAM01365', 'HMDB0000191': 'MAM01370', 'HMDB0000944': 'MAM01373', 'HMDB0000056': 'MAM01383', 'HMDB0000754': 'MAM01392', 'HMDB0002356': 'MAM01432', 'HMDB0000067': 'MAM01450', 'HMDB0000574': 'MAM01628', 'HMDB0000511': 'MAM01648', 'HMDB0002212': 'MAM01771', 'HMDB0000573': 'MAM01778', 'HMDB0000149': 'MAM01797', 'HMDB0000224': 'MAM01798', 'HMDB0000660': 'MAM01840', 'HMDB0000134': 'MAM01862', 'HMDB0000143': 'MAM01910', 'HMDB0000122': 'MAM01965', 'HMDB0000148': 'MAM01974', 'HMDB0000641': 'MAM01975', 'HMDB0000131': 'MAM01983', 'HMDB0000123': 'MAM01986', 'HMDB0000115': 'MAM01998', 'HMDB0000119': 'MAM02007', 'HMDB0000132': 'MAM02037', 'HMDB0000666': 'MAM02108', 'HMDB0000535': 'MAM02120', 'HMDB0000157': 'MAM02159', 'HMDB0000195': 'MAM02170', 'HMDB0000211': 'MAM02171', 'HMDB0000172': 'MAM02184', 'HMDB0001251': 'MAM02336', 'HMDB0000646': 'MAM02337', 'HMDB0000687': 'MAM02360', 'HMDB0002003': 'MAM02385', 'HMDB0000673': 'MAM02387', 'HMDB0000182': 'MAM02426', 'HMDB0000156': 'MAM02439', 'HMDB0000163': 'MAM02450', 'HMDB0000169': 'MAM02453', 'HMDB0002259': 'MAM02456', 'HMDB0000806': 'MAM02494', 'HMDB0001138': 'MAM02536', 'HMDB0001488': 'MAM02586', 'HMDB0000214': 'MAM02658', 'HMDB0000226': 'MAM02659', 'HMDB0000220': 'MAM02674', 'HMDB0000210': 'MAM02680', 'HMDB0000826': 'MAM02690', 'HMDB0000209': 'MAM02720', 'HMDB0000159': 'MAM02724', 'HMDB0000162': 'MAM02770', 'HMDB0000243': 'MAM02819', 'HMDB0000283': 'MAM02843', 'HMDB0000187': 'MAM02896', 'HMDB0000827': 'MAM02938', 'HMDB0000254': 'MAM02943', 'HMDB0000167': 'MAM02993', 'HMDB0000262': 'MAM02997', 'HMDB0001160': 'MAM03045', 'HMDB0000929': 'MAM03089', 'HMDB0000158': 'MAM03101', 'HMDB0000300': 'MAM03118', 'HMDB0000289': 'MAM03120', 'HMDB0000294': 'MAM03121', 'HMDB0000301': 'MAM03124', 'HMDB0000892': 'MAM03134', 'HMDB0000883': 'MAM03135', 'HMDB0000292': 'MAM03148', 'HMDB0001858': 'MAM03836'}
+human_gem_path ./data/Human-GEM.xlsx
+gem_model (8363, 2)
+gem_model (279, 3)
+75
+{'MAM00157': '(R)-3-hydroxybutanoate', 'MAM00745': '3alpha,12alpha-dihydroxy-5beta-cholanate', 'MAM00970': '4-aminobutyrate', 'MAM01003': '4-hydroxyphenylacetate', 'MAM01103': '5-hydroxyindoleacetate', 'MAM01327': 'alpha-tocopherol', 'MAM01365': 'arginine', 'MAM01370': 'aspartate', 'MAM01373': 'behenic acid', 'MAM01383': 'beta-alanine', 'MAM01392': 'beta-hydroxy-beta-methylbutyrate', 'MAM01432': 'cerotic acid', 'MAM01450': 'cholesterol', 'MAM01628': 'cysteine', 'MAM01648': 'decanoic acid', 'MAM01771': 'eicosanoate', 'MAM01778': 'elaidate', 'MAM01797': 'ethanolamine', 'MAM01798': 'ethanolamine-phosphate', 'MAM01840': 'fructose', 'MAM01862': 'fumarate', 'MAM01910': 'galactose', 'MAM01965': 'glucose', 'MAM01974': 'glutamate', 'MAM01975': 'glutamine', 'MAM01983': 'glycerol', 'MAM01986': 'glycine', 'MAM01998': 'glycolate', 'MAM02007': 'glyoxalate', 'MAM02037': 'guanine', 'MAM02108': 'heptylic acid', 'MAM02120': 'hexanoic acid', 'MAM02159': 'hypoxanthine', 'MAM02170': 'inosine', 'MAM02171': 'inositol', 'MAM02184': 'isoleucine', 'MAM02336': 'lanosterol', 'MAM02337': 'L-arabinose', 'MAM02360': 'leucine', 'MAM02385': 'lignocerate', 'MAM02387': 'linoleate', 'MAM02426': 'lysine', 'MAM02439': 'malate', 'MAM02450': 'maltose', 'MAM02453': 'mannose', 'MAM02456': 'margaric acid', 'MAM02494': 'myristic acid', 'MAM02536': 'N-acetyl-L-glutamate', 'MAM02586': 'nicotinate', 'MAM02658': 'ornithine', 'MAM02659': 'orotate', 'MAM02674': 'palmitate', 'MAM02680': 'pantothenate', 'MAM02690': 'pentadecylic acid', 'MAM02720': 'phenylacetate', 'MAM02724': 'phenylalanine', 'MAM02770': 'proline', 'MAM02819': 'pyruvate', 'MAM02843': 'ribose', 'MAM02896': 'serine', 'MAM02938': 'stearate', 'MAM02943': 'succinate', 'MAM02993': 'threonine', 'MAM02997': 'thymine', 'MAM03045': 'tricosanoic acid', 'MAM03089': 'tryptophan', 'MAM03101': 'tyrosine', 'MAM03118': 'uracil', 'MAM03120': 'urate', 'MAM03121': 'urea', 'MAM03124': 'urocanate', 'MAM03134': 'valeric acid', 'MAM03135': 'valine', 'MAM03148': 'xanthine', 'MAM03836': 'P-Cresol'}

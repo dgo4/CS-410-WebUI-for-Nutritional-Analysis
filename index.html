@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebUI for Nutriational Analysis</title>
+
+    <link rel="icon" href="data:,">
+
+    <meta charset="utf-8">
+
+    <style>
+        svg {
+            border: solid 1px black;
+        }
+        .button {
+            background-color: lightgrey;
+        }
+    </style>
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+    <script>
+    var colorArray = [
+            "Black",    //0
+            "Red",      //1
+            "Orange",   //2
+            "Yellow",   //3
+            "Green",    //4
+            "Gold",     //5
+            "Blue",     //6
+    ];
+
+    var nameArray = [
+	    "Almond",
+	    "Avocado",
+	    "Barley",
+	    "Broccoli",
+	    "Oats",
+	    "Walnut",
+    ];
+
+    var enableArray = [
+            1,  //Almond
+            1,  //Avacado
+            1,  //Barley
+            1,  //Broccoli
+            1,  //Oats
+            1,  //Walnut
+    ];
+
+    var NumDiet = 6;
+
+    var group = 1
+    var index = 1;
+
+    var groupedData;
+    var margin = 60;
+    var width  =800;
+    var height =680;
+
+    function PreProcessRow(d) {
+        d.accuracy = parseFloat(d.accuracy);
+        d.auprc = parseFloat(d.auprc);
+        d.auroc = parseFloat(d.auroc);
+        return d;
+    }
+
+    function DrawTable() {
+    }
+
+    function DrawCanvas() {
+        // badass visualization code goes here
+
+        d3.select("body")
+            .selectAll("button")
+            .on("click", function() {
+                console.log("Button:" + this.id);
+                RunScript(this.id);
+            });
+
+        d3.select("body")
+	    .select("svg")
+	    .selectAll("table")
+    }
+
+    function RefreshImg() {
+	var node = document.getElementById('img');
+	node.src = './Summary/summary.png?rand=' + Math.random();
+    }
+
+    function RunScript(id) {
+	switch(id) {
+		case "fileSubmit" :
+			baseFile = document.getElementById("basefile");
+			endFile = document.getElementById("endfile");
+			mapFile = document.getElementById("mapfile");
+			gemFile = document.getElementById("gemfile");
+			xlsxFile = document.getElementById("xlsxfile");
+
+			console.log(baseFile.files[0].name);
+			console.log(endFile.files[0].name);
+			console.log(mapFile.files[0].name);
+			console.log(gemFile.files[0].name);
+			console.log(xlsxFile.files[0].name);
+			break;
+		case "pmeta" :
+			fetch('http://127.0.0.1:5000/preprocessMetabolome', { method: 'POST' })
+				.then(response => response.text());
+			break;
+		case "pgem1" :
+			fetch('http://127.0.0.1:5000/preprocessHumanGem1', { method: 'POST' })
+				.then(response => response.text());
+			break;
+		case "pgem2" :
+			fetch('http://127.0.0.1:5000/preprocessHumanGem2', { method: 'POST' })
+				.then(response => response.text());
+			break;
+		case "fgen1" :
+			fetch('http://127.0.0.1:5000/featureGeneration1', { method: 'POST' })
+				.then(response => response.text());
+			break;
+		case "fgen2" :
+			fetch('http://127.0.0.1:5000/featureGeneration2', { method: 'POST' })
+				.then(response => response.text());
+			break;
+		case "fgen3" :
+			fetch('http://127.0.0.1:5000/featureGeneration3', { method: 'POST' })
+				.then(response => response.text());
+			break;
+		case "rclas" :
+			fetch('http://127.0.0.1:5000/runClassification', { method: 'POST' })
+				.then(response => response.text());
+			break;
+		case "gsumm" :
+			var timer = setTimeout(RefreshImg, 10);
+			break;
+	}
+    }
+
+    function clickDiet(checkbox) {
+        var names;
+        var num;
+
+        console.log(checkbox.id);
+        names = checkbox.id.split('.');
+        num = parseInt(names[1]);
+
+        if(checkbox.checked) {
+            enableArray[num] = 1;
+        } else {
+            enableArray[num] = 0;
+        }
+
+        console.log(enableArray);
+
+        DrawTable();
+    }
+
+    function MainProcess(data) {
+
+        console.log(nameArray);
+	console.log(data);
+
+	groupedData = data;
+
+        DrawCanvas();
+    }
+    
+    function loadCsv(csvFile) {
+        const data = d3.csv(csvFile, PreProcessRow, MainProcess);
+    }
+
+    </script>
+</head>
+<body>
+    <script>
+        loadCsv('./data/webUIdiet.csv');
+    </script>
+    <h1>WebUI for Nutritional Analysis</h1>
+    <p>This Project provides WebUI for the Research Paper written by Kowshika Sarker and Professor Zhai</p>
+    <p>The Paper is called "Augmenting nutritional metabolomics with a genome-scale metabolic model for assessment of diet intake."</p>
+    <h2>Background</h2>
+    <p>Human Fetal samples are homogenized and metabolomic analysis was performed before and after they take certain food.</p>
+    <p>Examples of food intak are Almond, Avocado, Barleys, Broccoli, Oats, Walnut.</p>
+    <p>For each sample, concentrations for hundreds of metabolites are generated using metabolomic analysis.</p>
+    <p>Feature generation using different kind of heuristics are performed.</p>
+    <p>Random Forests using the major metabolites are created to predict food intake</p>
+    <h2>Python Scripts</h2>
+    <p>We used an abbreviated version of the Python scripts created by the Research paper.</p>
+    <p></p>
+    <h2>Web Control</h2>
+    <h3>Input files</h3>
+    <form action="http://127.0.0.1:5000/copyFile" method="POST">
+        <label for="basefile">Select a .tsv file for Baseline (Pre-consumption) Concentration</label>
+        <input type="file" id="basefile" name="basefile" accept=".tsv">
+	<br></br>
+        <label for="endfile">Select a .tsv file for End (Post-consumption) Concentration</label>
+        <input type="file" id="endfile" name="endfile" accept=".tsv">
+	<br></br>
+        <label for="mapfile">Select a .tsv file for Mapping Metabolites name to HMDB ID</label>
+        <input type="file" id="mapfile" name="mapfile" accept=".tsv">
+	<br></br>
+        <label for="gemfile">Select a .tsv file for Mapping MAM ID to HMDB ID</label>
+        <input type="file" id="gemfile" name="gemfile" accept=".tsv">
+	<br></br>
+        <label for="xlsxfile">Select a .xlsx file for Human GEM Model</label>
+        <input type="file" id="xlsxfile" name="xlsxfile" accept=".xlsx">
+	<br></br>
+        <input type="submit" value="submit">
+    </form>
+    <form>
+        <h3>Preparation</h3>
+        <button class="button" type="button" id="pmeta">Preprocess Metabolome</button>
+        <button class="button" type="button" id="pgem1">Preprocess Human Gem - All Reactions</button>
+        <button class="button" type="button" id="pgem2">Preprocess Human Gem - Reaction Sets</button>
+    </form>
+    <form>
+        <h3>Feature Generation</h3>
+        <button class="button" type="button" id="fgen1">Feature Generation - Change</button>
+        <button class="button" type="button" id="fgen2">Feature Generation - Ratio</button>
+        <button class="button" type="button" id="fgen3">Feature Generation - Prob</button>
+    </form>
+    <form>
+        <h3>Classification</h3>
+        <button class="button" type="button" id="rclas">Run Classification</button>
+    </form>
+    <h3>Generate Summary for Food Intake</h3>
+    <form action="http://127.0.0.1:5000/generateSummary" method="POST">
+        <input type="checkbox" id="diet.0" name="diet.0" checked onclick="clickDiet(this);">
+        <label for="Almond">Almond</label>
+        <input type="checkbox" id="diet.1" name="diet.1" checked onclick="clickDiet(this);">
+        <label for="Avocado">Avocado</label>
+        <input type="checkbox" id="diet.2" name="diet.2" checked onclick="clickDiet(this);">
+        <label for="Barley">Barley</label>
+        <input type="checkbox" id="diet.3" name="diet.3" checked onclick="clickDiet(this);">
+        <label for="Broccoli">Broccoli</label>
+        <input type="checkbox" id="diet.4" name="diet.4" checked onclick="clickDiet(this);">
+        <label for="Oats">Oats</label>
+        <input type="checkbox" id="diet.5" name="diet.5" checked onclick="clickDiet(this);">
+        <label for="Walnut">Walnut</label>
+	<br></br>
+        <input type="submit" value="submit">
+    </form>
+    <h2>Web Output</h2>
+    <form>
+        <button class="button" type="button" id="gsumm">Refresh Summary Table</button>
+    </form>
+    <h3>Performance Summary of Reaction-based Features</h3>
+    <img id=img src="./Summary/summary.png">
+</body>
+</html>

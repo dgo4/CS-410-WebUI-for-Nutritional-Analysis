@@ -1,0 +1,13 @@
+treatments ['Almond', 'Broccoli', 'Oats', 'Barley', 'Avocado', 'Walnut']
+treatment Almond study_change_df (28, 75)
+treatment Almond rc1_df (28, 621)
+treatment Broccoli study_change_df (30, 75)
+treatment Broccoli rc1_df (30, 621)
+treatment Oats study_change_df (29, 75)
+treatment Oats rc1_df (29, 621)
+treatment Barley study_change_df (28, 75)
+treatment Barley rc1_df (28, 621)
+treatment Avocado study_change_df (44, 75)
+treatment Avocado rc1_df (44, 621)
+treatment Walnut study_change_df (36, 75)
+treatment Walnut rc1_df (36, 621)

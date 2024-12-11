@@ -1,0 +1,40 @@
+------- Oats -------
+Oats -> Best parameters from grid search: {'max_features': None, 'min_samples_leaf': 1, 'n_estimators': 1000, 'n_jobs': -1, 'oob_score': True, 'random_state': 1}
+Accuracy 0.034482758620689655
+AUROC 0.0
+AUPRC 0.37
+Top-10 features for Oats : Index(['3442.NoOats', '3467.NoOats', '3407.NoOats', '3454.NoOats',
+       '3402.NoOats', '3444.NoOats', '3414.NoOats', '3421.NoOats',
+       '3447.NoOats', '3413.NoOats'],
+      dtype='object')
+group key
+3430.Oats        Oats
+3464.NoOats    NoOats
+3454.NoOats    NoOats
+3442.NoOats    NoOats
+3447.NoOats    NoOats
+3437.NoOats    NoOats
+3402.NoOats    NoOats
+3408.Oats        Oats
+3461.Oats        Oats
+3413.NoOats    NoOats
+3469.Oats        Oats
+3445.Oats        Oats
+3458.Oats        Oats
+3467.NoOats    NoOats
+3407.NoOats    NoOats
+3448.Oats        Oats
+3426.Oats        Oats
+3406.Oats        Oats
+3429.NoOats    NoOats
+3440.Oats        Oats
+3414.NoOats    NoOats
+3444.NoOats    NoOats
+3421.NoOats    NoOats
+3417.Oats        Oats
+3453.Oats        Oats
+3412.Oats        Oats
+3439.Oats        Oats
+3420.NoOats    NoOats
+3415.Oats        Oats
+Name: group, dtype: object

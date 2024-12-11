@@ -1,0 +1,14 @@
+{'ornithine', 'hypoxanthine', 'myristic acid', 'hexanoic acid', 'beta-hydroxy-beta-methylbutyrate', 'cholesterol', 'serine', 'phenylacetate', 'thymine', 'glutamine', 'stearate', 'aspartate', 'elaidate', 'lanosterol', 'cerotic acid', 'ethanolamine', 'tyrosine', '5-hydroxyindoleacetate', 'glycolate', '3alpha,12alpha-dihydroxy-5beta-cholanate', 'urate', 'glycerol', 'glutamate', 'N-acetyl-L-glutamate', 'valeric acid', 'tricosanoic acid', 'eicosanoate', 'margaric acid', 'proline', 'nicotinate', 'urea', 'malate', 'decanoic acid', 'lignocerate', 'xanthine', 'lysine', 'ribose', 'uracil', 'urocanate', 'mannose', 'heptylic acid', 'threonine', 'beta-alanine', 'maltose', 'linoleate', 'fructose', 'succinate', 'glyoxalate', 'alpha-tocopherol', '(R)-3-hydroxybutanoate', 'behenic acid', 'inosine', '4-aminobutyrate', 'guanine', 'phenylalanine', 'inositol', 'pyruvate', 'orotate', 'tryptophan', '4-hydroxyphenylacetate', 'arginine', 'L-arabinose', 'glucose', 'isoleucine', 'cysteine', 'ethanolamine-phosphate', 'pantothenate', 'glycine', 'palmitate', 'fumarate', 'leucine', 'valine', 'pentadecylic acid', 'galactose', 'P-Cresol'}
+SUBSYSTEM
+Transport reactions                                      4187
+Exchange/demand reactions                                1664
+Drug metabolism                                           572
+Fatty acid oxidation                                      488
+Bile acid biosynthesis                                    263
+                                                         ... 
+Hippurate metabolism                                        2
+Heme synthesis;Porphyrin metabolism                         1
+CoA catabolism                                              1
+Triacylglycerol synthesis                                   1
+Beta oxidation of odd-chain fatty acids (peroxisomal)       1
+Name: count, Length: 143, dtype: int64

@@ -1,0 +1,55 @@
+------- Avocado -------
+Avocado -> Best parameters from grid search: {'max_features': None, 'min_samples_leaf': 1, 'n_estimators': 1000, 'n_jobs': -1, 'oob_score': True, 'random_state': 1}
+Accuracy 0.6136363636363636
+AUROC 0.0
+AUPRC 0.45
+Top-10 features for Avocado : Index(['186.NoAvocado', '132.NoAvocado', '114.NoAvocado', '086.NoAvocado',
+       '167.NoAvocado', '097.NoAvocado', '048.NoAvocado', '131.NoAvocado',
+       '064.NoAvocado', '166.NoAvocado'],
+      dtype='object')
+group key
+155.Avocado        Avocado
+125.Avocado        Avocado
+073.Avocado        Avocado
+041.NoAvocado    NoAvocado
+162.Avocado        Avocado
+050.Avocado        Avocado
+086.NoAvocado    NoAvocado
+152.NoAvocado    NoAvocado
+160.NoAvocado    NoAvocado
+167.NoAvocado    NoAvocado
+046.Avocado        Avocado
+056.Avocado        Avocado
+138.Avocado        Avocado
+134.Avocado        Avocado
+132.NoAvocado    NoAvocado
+064.NoAvocado    NoAvocado
+166.NoAvocado    NoAvocado
+094.Avocado        Avocado
+071.Avocado        Avocado
+047.Avocado        Avocado
+123.NoAvocado    NoAvocado
+133.NoAvocado    NoAvocado
+113.Avocado        Avocado
+131.NoAvocado    NoAvocado
+186.NoAvocado    NoAvocado
+117.Avocado        Avocado
+097.NoAvocado    NoAvocado
+099.Avocado        Avocado
+114.NoAvocado    NoAvocado
+161.Avocado        Avocado
+129.Avocado        Avocado
+102.Avocado        Avocado
+060.NoAvocado    NoAvocado
+175.NoAvocado    NoAvocado
+063.Avocado        Avocado
+169.Avocado        Avocado
+119.Avocado        Avocado
+096.Avocado        Avocado
+118.Avocado        Avocado
+174.Avocado        Avocado
+170.Avocado        Avocado
+149.Avocado        Avocado
+183.Avocado        Avocado
+048.NoAvocado    NoAvocado
+Name: group, dtype: object

@@ -1,0 +1,39 @@
+------- Barley -------
+Barley -> Best parameters from grid search: {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 1000, 'n_jobs': -1, 'oob_score': True, 'random_state': 1}
+Accuracy 0.10714285714285714
+AUROC 0.03
+AUPRC 0.33
+Top-10 features for Barley : Index(['3422.Barley', '3471.Barley', '3446.Barley', '3434.Barley',
+       '3418.Barley', '3455.Barley', '3465.Barley', '3411.Barley',
+       '3410.Barley', '3403.Barley'],
+      dtype='object')
+group key
+3418.Barley        Barley
+3454.NoBarley    NoBarley
+3447.NoBarley    NoBarley
+3442.NoBarley    NoBarley
+3467.NoBarley    NoBarley
+3465.Barley        Barley
+3414.NoBarley    NoBarley
+3429.NoBarley    NoBarley
+3431.Barley        Barley
+3407.NoBarley    NoBarley
+3403.Barley        Barley
+3471.Barley        Barley
+3434.Barley        Barley
+3470.Barley        Barley
+3405.Barley        Barley
+3437.NoBarley    NoBarley
+3423.Barley        Barley
+3446.Barley        Barley
+3411.Barley        Barley
+3413.NoBarley    NoBarley
+3422.Barley        Barley
+3464.NoBarley    NoBarley
+3402.NoBarley    NoBarley
+3444.NoBarley    NoBarley
+3455.Barley        Barley
+3410.Barley        Barley
+3421.NoBarley    NoBarley
+3420.NoBarley    NoBarley
+Name: group, dtype: object

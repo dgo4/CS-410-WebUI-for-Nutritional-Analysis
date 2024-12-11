@@ -1,0 +1,38 @@
+------- Barley -------
+Barley -> Best parameters from grid search: {'max_features': None, 'min_samples_leaf': 3, 'n_estimators': 1000, 'n_jobs': -1, 'oob_score': True, 'random_state': 1}
+Accuracy 0.6071428571428571
+AUROC 0.59
+AUPRC 0.55
+Top-10 features for Barley : Index(['MAR04574F', 'MAR04574B', 'MAR11305', 'MAR08238', 'MAR04416',
+       'MAR04519', 'MAR08755', 'MAR08426', 'MAR10981B', 'MAR10981F'],
+      dtype='object')
+group key
+3402.NoBarley    NoBarley
+3403.Barley        Barley
+3405.Barley        Barley
+3407.NoBarley    NoBarley
+3410.Barley        Barley
+3411.Barley        Barley
+3413.NoBarley    NoBarley
+3414.NoBarley    NoBarley
+3418.Barley        Barley
+3420.NoBarley    NoBarley
+3421.NoBarley    NoBarley
+3422.Barley        Barley
+3423.Barley        Barley
+3429.NoBarley    NoBarley
+3431.Barley        Barley
+3434.Barley        Barley
+3437.NoBarley    NoBarley
+3442.NoBarley    NoBarley
+3444.NoBarley    NoBarley
+3446.Barley        Barley
+3447.NoBarley    NoBarley
+3454.NoBarley    NoBarley
+3455.Barley        Barley
+3464.NoBarley    NoBarley
+3465.Barley        Barley
+3467.NoBarley    NoBarley
+3470.Barley        Barley
+3471.Barley        Barley
+Name: group, dtype: object

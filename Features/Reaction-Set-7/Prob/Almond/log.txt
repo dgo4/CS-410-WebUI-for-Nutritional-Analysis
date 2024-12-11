@@ -1,0 +1,39 @@
+------- Almond -------
+Almond -> Best parameters from grid search: {'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 1000, 'n_jobs': -1, 'oob_score': True, 'random_state': 1}
+Accuracy 0.07142857142857142
+AUROC 0.02
+AUPRC 0.33
+Top-10 features for Almond : Index(['4514:P3.Almond', '4515:P3.Almond', '4501:P5.Almond', '4502:P3.Almond',
+       '4508:P2.Almond', '4506:P1.Almond', '4509:P2.Almond', '4503:P1.Almond',
+       '4507:P3.Almond', '4505:P2.Almond'],
+      dtype='object')
+group key
+4501:P4.NoAlmond    NoAlmond
+4514:P3.Almond        Almond
+4508:P1.NoAlmond    NoAlmond
+4506:P1.Almond        Almond
+4511:P1.NoAlmond    NoAlmond
+4511:P5.Almond        Almond
+4507:P2.NoAlmond    NoAlmond
+4518:P5.Almond        Almond
+4512:P1.Almond        Almond
+4515:P5.NoAlmond    NoAlmond
+4505:P3.NoAlmond    NoAlmond
+4512:P5.NoAlmond    NoAlmond
+4505:P2.Almond        Almond
+4501:P5.Almond        Almond
+4502:P3.Almond        Almond
+4514:P5.NoAlmond    NoAlmond
+4508:P2.Almond        Almond
+4518:P2.NoAlmond    NoAlmond
+4516:P3.NoAlmond    NoAlmond
+4507:P3.Almond        Almond
+4515:P3.Almond        Almond
+4516:P4.Almond        Almond
+4502:P2.NoAlmond    NoAlmond
+4509:P2.Almond        Almond
+4503:P2.NoAlmond    NoAlmond
+4506:P3.NoAlmond    NoAlmond
+4503:P1.Almond        Almond
+4509:P4.NoAlmond    NoAlmond
+Name: group, dtype: object

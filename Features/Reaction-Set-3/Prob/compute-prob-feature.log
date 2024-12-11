@@ -1,0 +1,66 @@
+treatments ['Barley', 'Oats', 'Walnut', 'Avocado', 'Broccoli', 'Almond']
+hmdb_list 75
+Count mismatch MAR04783F
+Count mismatch MAR04807F
+Count mismatch MAR12742F
+Count mismatch MAR12751F
+Count mismatch MAR13004F
+Count mismatch MAR04783B
+Count mismatch MAR04807B
+Count mismatch MAR12742B
+Count mismatch MAR12751B
+Count mismatch MAR13004B
+No reaction mapped to HMDB0000646+
+No reaction mapped to HMDB0000754-
+No reaction mapped to HMDB0001138-
+No reaction mapped to HMDB0001858+
+No reaction mapped to HMDB0001893+
+2057
+*** Barley NoBarley ***
+1712 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 28
+control_samples 14
+treatment_samples 14
+df (28, 1890)
+*** Oats NoOats ***
+1712 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 29
+control_samples 14
+treatment_samples 15
+df (29, 1891)
+*** Walnut NoWalnut ***
+1712 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 36
+control_samples 18
+treatment_samples 18
+df (36, 1898)
+*** Avocado NoAvocado ***
+1712 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 44
+control_samples 17
+treatment_samples 27
+df (44, 1906)
+*** Broccoli NoBroccoli ***
+1712 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 30
+control_samples 15
+treatment_samples 15
+df (30, 1892)
+*** Almond NoAlmond ***
+1712 react_nodes
+150 met_nodes
+195 sample_nodes
+study_samples 28
+control_samples 14
+treatment_samples 14
+df (28, 1890)
